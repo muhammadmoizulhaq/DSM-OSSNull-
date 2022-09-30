@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{84B41F97-4A28-BABC-2F36-32A8D7F6F417}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SessionTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AccelbyteUe4Sdk",
+			"Enabled": true
+		},
+		{
+			"Name": "VivoxCore",
+			"Enabled": true
+		}
+	]
+}
